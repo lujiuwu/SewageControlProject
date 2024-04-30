@@ -5,10 +5,6 @@ SewageControlProject 污水处理系统是一款以污水处理为设计主题�
 
 ## 预览
 [点我查看预览](https://lujiuwu.github.io/SewageControlProject/dist/index.html)
-PC端：
-![](Snipaste_2024-04-30_13-51-33.png)
-![](Snipaste_2024-04-30_13-51-41.png)
-![](Snipaste_2024-04-30_13-52-11.png)
 ## 安装使用
 ### 从GitHub上拉取
 ```
