@@ -83,49 +83,7 @@
       </div>
     </div>
 
-    <!-- 数据表格 -->
-    <div class="table">
-      <div class="table-title">
-        <div class="main-title">实时数据详情表格</div>
-      </div>
-      <el-table :data="tableData" style="width: 100%" height="600">
-        <el-table-column fixed prop="province" label="省份" width="80">
-        </el-table-column>
-        <el-table-column prop="city" label="城市" width="90"> </el-table-column>
-        <el-table-column prop="name" label="断面名称" width="125">
-        </el-table-column>
-        <el-table-column prop="longitude" label="经度" width="90">
-        </el-table-column>
-        <el-table-column prop="latitude" label="纬度" width="90">
-        </el-table-column>
-        <el-table-column prop="quality" label="水质类别" width="80">
-        </el-table-column>
-        <el-table-column prop="temperature" label="水温" width="70">
-        </el-table-column>
-        <el-table-column prop="ph" label="ph值" width="65"> </el-table-column>
-        <el-table-column prop="oxygen" label="溶解氧" width="70">
-        </el-table-column>
-        <el-table-column prop="AmmoniaNitrogen" label="氨氮" width="70">
-        </el-table-column>
-        <el-table-column prop="phosphorus" label="总磷" width="65">
-        </el-table-column>
-        <el-table-column prop="totalNitrogen" label="总氮" width="65">
-        </el-table-column>
-        <el-table-column prop="turbidity" label="浊度" width="80">
-        </el-table-column>
-        <el-table-column prop="electricConductivity" label="电导率" width="70">
-        </el-table-column>
-        <el-table-column
-          prop="potassiumPermanganate"
-          label="高锰酸钾"
-          width="80"
-        >
-        </el-table-column>
-      </el-table>
-      <!-- 分页组件 -->
-      <el-pagination class="pages" layout="prev, pager, next" :total="1000">
-      </el-pagination>
-    </div>
+
   </div>
 </template>
 
@@ -133,8 +91,6 @@
 import "echarts-liquidfill";
 import * as echarts from "echarts";
 import mapJson from "../../../src/show_data/map.json";
-// 导入表格数据
-import { table_data } from "../../table-data/tableData.js";
 // 导入头部
 import Header from "../my-components/header";
 export default {
@@ -165,8 +121,7 @@ export default {
         { value: 30, name: "轻度污染" },
         { value: 40, name: "微度污染" },
       ],
-      showLevelColor: ["#146de0", "#27ef5e", "#ffc140", "#d151d8"],
-      tableData: table_data,
+      showLevelColor: ["#146de0", "#27ef5e", "#ffc140", "#d151d8"]
     };
   },
   created() {
@@ -1319,24 +1274,6 @@ export default {
       }
     }
   }
-  .table {
-    .table-title {
-      background-color: #fff;
-      padding: 5px;
-      box-sizing: border-box;
-      .main-title {
-        border-left: 6px solid #3cd5ff;
-        color: #3cd5ff;
-        padding: 3px 10px;
-        box-sizing: border-box;
-      }
-    }
-    width: 100%;
-    .pages {
-      text-align: center;
-      padding-top: 8px;
-      background-color: #fff;
-    }
-  }
+  
 }
 </style>
