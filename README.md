@@ -7,19 +7,19 @@
 污水排污监测与预警平台是一款以污水处理为设计主题的后台管理系统，完全采用 ECMAScrip 模块（ESM）规范来编写和组织代码，基于 Vue2、Element-vue2、JavaScript、Pinia、等主流技术开发
 
 ## 目录结构描述
+```
 ├── Readme.md                   // help
 └── src                         // 配置
-    ├── assets                  // 静态资源
+├── assets                      // 静态资源
     ├── components              // 全局组件
     ├── router                  // 路由
     ├── show_data
-    │   └── map.json             // 地图数据
+    │   └── map.json            // 地图数据
     ├── store                   // 状态管理库
     ├── views                   // 页面目录
     ├── web_data                // 主要静态数据
     └── App.vue                 // 设置路由出口
-
-
+```
 
 ## 安装使用
 ### 从GitHub上拉取
