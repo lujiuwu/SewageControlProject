@@ -8,16 +8,18 @@
 
 ## 目录结构描述
 ├── Readme.md                   // help
-├── src                         // 配置
-│   ├── assets                  //静态资源
-│   ├── components              // 全局组件
-│   ├── router                  // 路由
-│   ├── show_data
-        ├──map.json             // 地图数据
-│   ├── store                   // 状态管理库
-│   ├── views                   // 页面目录
-│   ├── web_data                // 主要静态数据
-│   └── App.vue                 // 设置路由出口
+└── src                         // 配置
+    ├── assets                  // 静态资源
+    ├── components              // 全局组件
+    ├── router                  // 路由
+    ├── show_data
+    │   └── map.json             // 地图数据
+    ├── store                   // 状态管理库
+    ├── views                   // 页面目录
+    ├── web_data                // 主要静态数据
+    └── App.vue                 // 设置路由出口
+
+
 
 ## 安装使用
 ### 从GitHub上拉取
