@@ -1,5 +1,5 @@
 # **污水排污监测与预警平台**
-
+`vue2.0`  `JavaScript`  `Pinia`  `Element-UI`
 [在线演示](https://lujiuwu.github.io/SewageControlProject/dist/index.html)
 
 ## 项目简介
