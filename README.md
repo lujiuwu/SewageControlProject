@@ -1,10 +1,10 @@
-# SewageControlProject污水处理系统
+# **污水排污监测与预警平台**
+
+[在线演示](https://lujiuwu.github.io/SewageControlProject/dist/index.html)
 
 ## 项目简介
-SewageControlProject 污水处理系统是一款以污水处理为设计主题的后台管理系统，完全采用 ECMAScrip 模块（ESM）规范来编写和组织代码，基于 Vue2、Element-vue2、JavaScript、Pinia、等主流技术开发
+污水排污监测与预警平台是一款以污水处理为设计主题的后台管理系统，完全采用 ECMAScrip 模块（ESM）规范来编写和组织代码，基于 Vue2、Element-vue2、JavaScript、Pinia、等主流技术开发
 
-## 预览
-[点我查看预览](https://lujiuwu.github.io/SewageControlProject/dist/index.html)
 ## 安装使用
 ### 从GitHub上拉取
 ```
